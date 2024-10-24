@@ -1,0 +1,43 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #E7E5C1;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #279F5D, #126636, #043D1C);
+    color: white;
+    
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}
+
+.titulo_site {
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitulo_site {
+    text-align: center;
+    padding: 20px;
+}
+
+.historia {
+    max-width: 80%;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
