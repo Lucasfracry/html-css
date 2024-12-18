@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Portugalia</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jonal Portugalia</h1>
+        <span id="mburger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>PM à paisana morre após ser baleado em assalto na Zona Oeste de SP</h2>
+
+            <img src="./imagens/foto-reportagem.jpeg" alt="">
+
+            <p>Um policial militar que estava à paisana morreu após ser baleado em um assalto, na madrugada desta sexta-feira (1), na Marginal Tietê, região da Barra Funda, na Zona Oeste de São Paulo. A vítima seguia em uma motocicleta com outro policial, que também não usava farda, quando eles foram abordados pelos criminosos. <strong>Houve disparos de arma de fogo e o agente acabou atingido, sendo que o colega não se feriu.</strong></p>
+
+            <p>De acordo com a Secretaria de Segurança Pública de São Paulo (SSP-SP), o PM baleado foi socorrido e levado ao Pronto Socorro do São Camilo, na Pompéia, mas não resistiu aos ferimentos e morreu. Já o policial que estava com ele escapou ileso.</p>
+
+            <p>Os criminosos, que também estavam em uma motocicleta, fugiram após o crime e ainda não foram encontrados. O caso é investigado como latrocínio, que é o roubo seguido de morte.</p>
+
+            <p>“O caso está em elaboração no 91° DP [Ceagesp] e mais detalhes serão fornecidos ao término do registro”, informou a SSP-SP, que também lamentou a morte do policial militar, que ainda não teve o nome revelado.</p>
+
+            <p>O agente que sobreviveu deverá ser ouvido para esclarecer as dinâmicas do assalto. Os investigadores também buscam imagens de câmeras de segurança que possam ter registrado o crime.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+</body>
+</html>
