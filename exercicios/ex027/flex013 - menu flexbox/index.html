@@ -11,8 +11,10 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
-        <nav>
+        <div class="menuburguer">
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        </div>
+        <nav id="itens">
             <a href="#">Opção 1</a>
             <a href="#">Opção 2</a>
             <a href="#">Opção 3</a>
@@ -26,5 +28,14 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloribus animi recusandae veniam rem dolor sed inventore labore? Aliquam assumenda quae ducimus alias porro illo necessitatibus asperiores velit voluptatem a.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima cum molestias facilis quidem nostrum saepe inventore? Iste molestias nobis distinctio nam rerum corrupti dolorem sit, porro quibusdam reiciendis odio!</p>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+    </script>
 </body>
 </html>

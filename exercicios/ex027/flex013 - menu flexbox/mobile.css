@@ -11,3 +11,24 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 34px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    border: 2px solid rgba(0, 0, 0, 0.257);
+    border-radius: 6px;
+  }
+  
+  .material-symbols-outlined:hover {
+    background-color: rgba(0, 0, 0, 0.521);
+  }
