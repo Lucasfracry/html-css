@@ -12,6 +12,11 @@ header > nav > a {
     width: 90vw;
 }
 
+header > nav {
+    /*border: 1px dotted black;*/
+
+    display: none;
+}
 
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
